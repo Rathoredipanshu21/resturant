@@ -1,0 +1,65 @@
+.preview-order {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .cart-item-details, .address-details {
+    margin-bottom: 20px;
+  }
+  
+  .payment-button, .cod-button, .confirm-order-button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #F37254;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .payment-button:hover, .cod-button:hover, .confirm-order-button:hover {
+    background-color: #d65a3a;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: calc(100% - 20px);
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #547ef3;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #d65a3a;
+  }
+  

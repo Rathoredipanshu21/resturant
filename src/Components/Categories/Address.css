@@ -1,0 +1,126 @@
+/* Address.css */
+
+.address {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.address h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  font-family: 'Lato', sans-serif;
+}
+
+.cart-item-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  gap: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.cart-item-details:hover {
+  transform: translateY(-5px);
+}
+
+.cart-item-details img {
+  max-width: 120px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item-details div {
+  flex: 1;
+}
+
+.cart-item-details h3 {
+  margin: 0 0 5px 0;
+  font-size: 1.5em;
+  color: #34495e;
+  font-family: 'Lato', sans-serif;
+}
+
+.cart-item-details p {
+  margin: 0;
+  font-size: 1em;
+  color: #7f8c8d;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+.cart-item-details b {
+  color: #e74c3c;
+  font-size: 1.3em;
+}
+
+.quantity {
+  font-size: 1em;
+  font-weight: bold;
+  color: #2980b9;
+  margin-top: 10px;
+}
+
+.quantity span {
+  background-color: #dff9fb;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #34495e;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #34495e;
+  font-family: 'Lato', sans-serif;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}

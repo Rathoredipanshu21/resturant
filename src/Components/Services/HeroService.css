@@ -1,0 +1,133 @@
+#service{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 791px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#service::before {
+    content: "";
+    background-image: url('https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=600') ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+#service h1{
+    text-align: center;
+    font-family: 'Bree Serif';
+
+
+}
+#service p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif';
+    
+}
+#service button{
+    background-color: #8b0305;
+    color: #fff;
+}
+
+#service button:hover{
+    background-color: #fff;
+    color: #8b0305;
+}
+
+
+  
+  /* for mobile screen  */
+  @media only screen and (max-width: 600px) {
+    #service{
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        height: 791px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    #service::before {
+        content: "";
+        background-image: url('https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=600') ;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+        /* opacity: 0.9; */
+    }
+    #service h1{
+        text-align: center;
+        font-family: 'Bree Serif';
+    
+    
+    }
+    #service p{
+        font-size: 1.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Bree Serif';
+        
+    }
+    #service button{
+        background-color: #8b0305;
+        color: #fff;
+    }
+    
+    #service button:hover{
+        background-color: #fff;
+        color: #8b0305;
+    }
+    
+    
+      
+      /* for mobile screen  */
+      @media only screen and (max-width: 600px) {
+        .service img{
+                height: 40vh;
+                background-position: center;
+        }
+        
+
+    }
+      
+      /* for tab */
+    
+      @media only screen and (min-width: 600px) and (max-width: 900px) 
+      {
+    
+      }
+      
+      /* for desktop  */
+    
+      @media only screen and (min-width: 900px) {
+        
+      }
+    
+}
+  
+  /* for tab */
+
+  @media only screen and (min-width: 600px) and (max-width: 900px) 
+  {
+
+  }
+  
+  /* for desktop  */
+
+  @media only screen and (min-width: 900px) {
+    
+  }

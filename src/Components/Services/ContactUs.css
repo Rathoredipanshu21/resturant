@@ -1,0 +1,63 @@
+/* GetInTouchPage.css */
+.get-in-touch-page {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .restaurant-info,
+  .form-container {
+    flex: 0 0 48%; /* Adjust width as needed */
+  }
+  
+  .restaurant-info {
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .form-container {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style icons */
+  .get-in-touch-page p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .get-in-touch-page svg {
+    margin-right: 10px;
+  }
+  

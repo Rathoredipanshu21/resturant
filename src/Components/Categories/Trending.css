@@ -1,0 +1,93 @@
+#topic-trending{
+    text-align: center;
+    font-size: bold;
+    font-family: 'Bree Serif';
+}
+.Trending a{
+    text-decoration: none;
+}
+ .card-trending{
+    width: 18rem;
+   
+ }
+ .card-trending img{
+    border-radius: 15px;
+
+ }
+ .card-trending:hover{
+   transform: scale(.958);
+   
+
+ }
+
+ .trending-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2px auto;
+ }
+#card-title-text{
+    text-align: center;
+    font-family: 'Bree Serif';
+}
+.card-trending-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    width: 90%;
+    margin: 2px auto;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-body p{
+    text-align: center;
+  }
+  .scanner {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .scanner img {
+    width: 80%;
+  }
+  
+  
+  /* for mobile screen  */
+  @media only screen and (max-width: 600px) {
+    .scanner img {
+      width: 500px; 
+    }
+    .card-trending-main{
+      display: flex;
+      flex-direction: column;
+      /* padding-top: 20px; */
+      width: 100%;
+      margin: 2px auto;
+     
+  }
+  .card-trending {
+    border: 2px solid #000;
+    padding: 10px;
+  }
+}
+  
+  /* for tab */
+
+  @media only screen and (min-width: 600px) and (max-width: 900px) 
+  {
+
+  }
+  
+  /* for desktop  */
+
+  @media only screen and (min-width: 900px) {
+    
+  }

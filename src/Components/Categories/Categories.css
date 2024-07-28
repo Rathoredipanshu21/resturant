@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden;
+}
+
+.categories {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.categories-list {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.categories-list img {
+  width: 60%;
+  max-width: 100%;
+}
+
+#h1 {
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+.categories-list:hover {
+  transform: scale(1.2);
+}
+
+#pop-up {
+  color: blue;
+  text-align: center;
+}
+
+#pop-up2 {
+  color: red;
+  text-align: center;
+}
+
+/* for mobile screen */
+@media only screen and (max-width: 600px) {
+  .categories-list img {
+    max-width: 100%; /* Change max-width to 100% to fit the screen */
+  }
+  .categories-list:hover {
+    transform: none;
+  }
+}

@@ -1,0 +1,80 @@
+.why-us-main{
+  
+    width: 70%;
+    margin: 2px auto;
+    border-radius: 20px;
+}
+.why-us{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    font-size: xx-large;
+    
+   
+}
+.why-us span{
+    color: red;
+}
+.service-list-main{
+    padding-top: 20px;
+}
+
+.service-list{
+display: flex;
+justify-content: space-between;
+gap: 30px;
+padding-top: 30px;
+align-items: center;
+}
+
+.about-service-img img{
+    border-radius: 15px;
+   height: 30vh;
+}
+
+#delicious-food{
+   
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    width: 72%;
+    padding: 0px;
+    border-radius: 13px;
+    margin: 2px auto;
+    font-family: 'Bree Serif';
+   
+
+}
+#delicious-food-second{
+   
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+    width: 72%;
+    padding: 0px;
+    border-radius: 13px;
+    margin: 2px auto;
+    font-family: 'Bree Serif';
+   
+
+}
+
+.star-rating-why {
+    color: #000;
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+      /* for mobile screen  */
+      @media only screen and (max-width: 600px) {
+        .why-us{
+            font-size: large;
+        }
+        .service-list{
+            flex-direction: column;
+           
+        }
+    }

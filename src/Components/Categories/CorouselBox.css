@@ -1,0 +1,60 @@
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categories-list img {
+  width: 45%;
+  min-width: 150px; 
+  margin: 5px;
+}
+
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  height: auto;
+  margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 20%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100%;
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+  width: 30px;
+  height: 30px;
+}
+
+
+  /* for mobile screen  */
+  @media only screen and (max-width: 600px) {
+    .carousel-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+}
+  
+  /* for tab */
+
+  @media only screen and (min-width: 600px) and (max-width: 900px) 
+  {
+
+  }
+  
+  /* for desktop  */
+
+  @media only screen and (min-width: 900px) {
+    
+  }
+

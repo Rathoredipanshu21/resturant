@@ -1,0 +1,36 @@
+.reservation-information-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .reservation-methods {
+    margin-bottom: 40px;
+  }
+  
+  .reservation-methods h2 {
+    font-size: 24px;
+  }
+  
+  .reservation-methods p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-methods ul {
+    padding-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 20px;
+  }
+  

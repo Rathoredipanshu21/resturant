@@ -1,0 +1,122 @@
+/* Navbar Styles */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent; /* Initially transparent */
+  padding: 10px 20px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Text color for transparent navbar */
+}
+
+.sticky {
+  background-color: #fff; /* White background on scroll */
+  color: #000; /* Change text color when sticky */
+}
+
+/* Logo Styles */
+#logo {
+  margin: 0;
+}
+
+#logo img {
+  height: 50px;
+  border-radius: 50px;
+}
+
+/* Navbar List */
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list .item {
+  margin: 0 10px;
+}
+
+.navbar-list .item a {
+  text-decoration: none;
+  font-family: 'Bree Serif';
+  font-size: 1.1rem;
+  color: inherit; /* Inherit color from the navbar */
+}
+
+.navbar-list .item a:hover {
+  background-color: #8a0204;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+/* Drawer Menu */
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40%;
+  background-color: #fff;
+  padding-top: 70px;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  z-index: 999; /* Ensure it appears above the page content */
+}
+
+.drawer.open {
+  transform: translateX(0);
+}
+
+.drawer li {
+  padding: 20px;
+}
+
+.drawer a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Drawer Toggle */
+.drawer-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.material-icons {
+  font-size: 2rem;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .navbar-list {
+    display: none;
+  }
+
+  #logo img {
+    height: 45px;
+    margin: 2px 4px;
+    border-radius: 50px;
+  }
+
+  .drawer-toggle {
+    display: block;
+  }
+
+  .menu-toggle img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .close-icon img {
+    height: 30px;
+    width: 30px;
+    margin: 2px auto;
+  }
+}
